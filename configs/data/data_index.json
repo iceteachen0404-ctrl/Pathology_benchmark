@@ -1,0 +1,18 @@
+{
+    "TCGA_BRCA":{
+        "slides": "/data/TCGA/BRCA/slides",
+        "labels": "/data/TCGA/BRCA/labels.csv",
+        "reports": "/data/TCGA/BRCA/reports/"
+    },
+    "Camelyon16": {
+        "slides": "/data/Camelyon16/slides",
+        "labels": "/data/Camelyon16/labels.csv"
+    },
+    "Others": {
+        "slides": "/data/Others/slides",
+        "labels": "/data/Others/labels.csv"
+    },
+    "benchmark_test": {
+        "slides": "/data/slide_files/nas/vol2/Public_Data/benchmark_test_data/"
+    }
+}

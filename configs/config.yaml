@@ -1,0 +1,20 @@
+data:
+  data_sets: benchmark_test # 数据集的名字，如果为Others，则需要自定义文件路径
+  preprocessed_dir: /data/slide_files/nas/vol2/benchmark # 预处理的文件根路径
+  index_files: "configs/data/data_index.json"
+
+model:
+  name: Prism # 要做Benchmark测试的模型名字
+
+task:
+  name: Report_generation # 要做Benchmark测试的下游任务名字
+
+gpu:
+  id: "4" # 要使用的GPU的id
+  
+eval:
+  name: "BLEU" # 评价指标的名字
+
+result:
+  result_dir: "/data/slide_files/nas/vol2/benchmark/result" # 存储结果的根路径
+

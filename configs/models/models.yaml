@@ -1,0 +1,7 @@
+Prism: 
+  segmenter: "hest"
+  mag: 20
+  patch_size: 224
+  overlap: 0
+  patch_encoder: "virchow"
+  slide_encoder: "prism"
